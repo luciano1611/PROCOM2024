@@ -13,9 +13,11 @@ from tool._fixedInt import *
 ##  ipython nbconvert --to latex --post PDF <Name.ipynb>
 
 ## Parametros generales
-T     = 1.0/21.0e9 # Periodo de baudio
+#T     = 1.0/21.0e9 # Periodo de baudio
+T     = 1.0/100.0e6 # Periodo de baudio
 Nsymb = 1000          # Numero de simbolos
-os    = 4
+#os    = 4
+os      = 8
 ## Parametros de la respuesta en frecuencia
 Nfreqs = 256          # Cantidad de frecuencias
 
